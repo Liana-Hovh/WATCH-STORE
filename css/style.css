@@ -1,0 +1,27 @@
+/* Header Module */
+header{
+    padding: 10px;
+    background-color: #d4d4aa;
+}
+.page a{
+    text-decoration: none;
+    color: black;
+}
+.header-contacts{
+    margin-right: 15px;
+}
+.content-free{
+    background-color: #a7a75d;
+    padding: 5px;
+    margin-right: 40px;
+}
+/*Header Dropdown Module*/
+.row-flex{
+    margin: 30px;
+}
+.row-flex button:hover{
+    color: chocolate;
+}
+.dropdown-menu a{
+    display: block;
+}
