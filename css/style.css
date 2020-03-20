@@ -1,27 +1,80 @@
-/* Header Module */
+/*BODY STYLE*/
 header{
-    padding: 10px;
-    background-color: #d4d4aa;
+    margin-top: 20px;
 }
-.page a{
+.row-header{
+    padding-bottom: 20px;
+    background-color: #b6b6bf;
+}
+.row-header a{
     text-decoration: none;
     color: black;
 }
-.header-contacts{
-    margin-right: 15px;
+.offset-menu{
+    margin-top: 20px;
 }
-.content-free{
-    background-color: #a7a75d;
-    padding: 5px;
-    margin-right: 40px;
+.free-buton{
+    background-color: #9191a2;
+    padding: 20px;
+    margin-right: 30px;
 }
-/*Header Dropdown Module*/
+.free-buton:hover{
+    color: #f5c2c2;
+}
+
+/*Header Logo Menu*/
 .row-flex{
-    margin: 30px;
+    margin-top: 40px;
 }
-.row-flex button:hover{
+.row-flex a{
+    text-decoration: none;
+    color: #797d7d;
+}
+.row-flex a:hover{
     color: chocolate;
 }
-.dropdown-menu a{
-    display: block;
+.menu-links a{
+    padding: 20px;
+}
+/*Navbar Modul*/
+.header-nav{
+    margin-top: 95px;
+}
+.header-nav ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+.header-nav li a{
+    color: black;
+    text-decoration: none;
+    margin-right: 25px;
+}
+.header-nav li a:hover{
+    color: chocolate;
+    border-bottom: solid 3px black;
+}
+.header-nav:hover{
+    border-bottom: solid 1px gray;
+}
+/*Navbar Modul Input Search*/
+input{
+    width: 370px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 5px 0;
+    border: none;
+    border-bottom: 1px solid #e1e1e1;
+    font-family: "FuturaPT";
+    font-weight: 300;
+    font-size: 16px;
+}
+.icons-button{
+    border: none;
+    background: none;
+    margin-left: 380px;
+}
+/*The Body Inner Carousel And Img Modul*/
+.right-carousel{
+    margin-top: 80px;
 }
